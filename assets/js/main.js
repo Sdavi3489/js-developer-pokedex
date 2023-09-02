@@ -70,7 +70,7 @@ function getInfo(Idpokemon) {
                             <h3 class="PokemonData">Weight</h3>
                             <span class="PokemonData">${pokemons.weight}</span>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-last-item">
                             <table>
                                 <tr>
                                     ${pokemons.statName.map((stat) => `<th class="PokemonData">${stat}</th>`).join('')}
